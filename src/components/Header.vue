@@ -1,10 +1,10 @@
 <template>
   <header>
     <router-link class="logo" to="/">
-      <img alt="Vue logo" src="../assets/cnodejs_light.svg" />
+      <img alt="Vue logo" src="../assets/logo.png" />
     </router-link>
-    <router-link class="info" to="/"> 未读消息 </router-link>
-    <span class="signout"> 退出 </span>
+    <!-- <router-link class="info" to="/"> 未读消息 </router-link>
+    <span class="signout"> 退出 </span> -->
   </header>
 </template>
 
@@ -17,8 +17,8 @@ export default {
 <style>
 header {
   width: 100%;
-  height: 50px;
-  background-color: #444;
+  height: 80px;
+  background-color: #E1E1E1;
   line-height: 50px;
   color: #fff;
 }
@@ -29,7 +29,7 @@ header {
 a.info {
   text-shadow: none;
   color: #ccc;
-  margin-left: 65%;
+  margin-left: 50%;
   margin-right: 30px;
   font-size: 13px;
 }
